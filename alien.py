@@ -30,5 +30,5 @@ class Alien(Sprite):
 
     def update(self):
         """Перемещение пришельца"""
-        self.x += self.settinngs.alien_speed * self.settinngs.fleet_direction
+        self.x += self.settinngs.alien_speed_factor * self.settinngs.fleet_direction
         self.rect.x = self.x
